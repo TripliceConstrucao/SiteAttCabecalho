@@ -1,0 +1,112 @@
+/*Estilo para tablets*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+}
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 787px) {
+
+/*Header*/
+.header {
+	position: relative;
+	padding-bottom: 0px;
+}
+
+.header img {
+	margin: 0 auto 10px auto;
+}
+
+.header_menu {
+	text-align: center;
+}
+
+.header_menu ul li {
+	margin: 5px;
+	display: inline-block;
+}
+
+.header_menu ul li a {
+	width: 136px;
+	display: inline;
+}
+
+.header_menu ul li a:hover {
+	border-color: #95ae0b;
+}
+
+.header{
+    background-size: 100%;
+
+}
+/*Introducao*/
+.introducao, .introducao-obras {
+    margin-top: 0px;
+}
+
+.introducao h1, .introducao-obras h1{
+    font-size: 35px;
+}
+
+/* Conteudo */
+
+.conteudo {
+	margin-top: 20px;
+	padding-top: 20px;
+	padding: 0px;
+}
+
+.conteudo img{
+	width: 100%
+}
+
+#carouselExampleIndicators{
+    margin-top: 0px;
+}
+
+.imgcarrossel{
+    height: 350px;
+}
+
+.videos iframe{
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+}
+
+/* Footer */
+
+
+.footer, .footer h3{
+	text-align: center;
+}
+
+.footer_historia{
+	padding-right: 0px;
+}
+
+.sub::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: white;
+    margin: 4px auto;
+}
+
+.subtitulo{
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: .1em;
+    color: #2c4d84;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Responsivo do portifólio */
+
+.cards{
+    display: block;
+}
+
+}

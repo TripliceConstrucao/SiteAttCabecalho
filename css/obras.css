@@ -1,0 +1,303 @@
+/* Introdução */
+.introducao-obras {
+    margin-top: 108px;
+    width: 100%;
+    height: 380px;
+    background: url('../img/obras/carrossel-02.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    padding-top: 100px;
+}
+
+.introducao h1, .introducao-obras h1 {
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.quote-externo {
+  max-width: 320px;
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.quote-externo p {
+  font: 14px;
+  font-style: italic;
+}
+
+.quote-externo p::before,
+.quote-externo p::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: white;
+  margin: 14px auto 10px auto;
+}
+
+.quote-externo cite {
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+/* Cards */
+
+.obras{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.card-obras{
+    width: 18rem;
+    margin-top: 30px;
+}
+
+.cards{
+    margin-top: 10px;
+    display: block;
+}
+
+.titulo-card{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: black 0.1em 0.1em 0;
+
+}
+
+.card-obras .fundo{
+    margin-top: 40px;    
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 4em; 
+}
+
+
+.bodo .fundo{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+    url('../img/obras/bodo-janelascapas.jpg') no-repeat;
+    background-size: cover;
+}
+
+.acarigaleria .fundo{
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+  url('../img/obras/acari-galeriacapa\ -\ Cópia.jpg') no-repeat;
+  background-size: cover
+}
+
+.acariantonio .fundo{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+    url('../img/obras/acari-antoniocapa.jpg') no-repeat;
+    background-size: cover
+}
+
+.acaricapela .fundo{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+    url('../img/obras/acari-capela-capa.jpg') no-repeat;
+    background-size: cover
+}
+
+.lagoamonsenhor .fundo{
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+  url('../img/obras/lagoa-mosenhorcontrato.jpeg') no-repeat;
+  background-size: cover
+}
+
+.acariacude .fundo{
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+  url('../img/obras/acari-paredecapa.jpg') no-repeat;
+  background-size: cover
+}
+
+.descricao{
+    margin-top: 10px;
+}
+
+label{
+    color: #95ae0b;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 14px;
+}
+/* Shutter Out Horizontal */
+.vermais {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    background: #95ae0b;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    color: white;
+    border: none;
+    width: 45%;
+    height: 30px;
+  }
+  .vermais:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #2c4d84;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .vermais:hover, .vermais:focus, .vermais:active {
+    color: white;
+  }
+  .vermais:hover:before, .vermais:focus:before, .vermais:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  /* sobre */
+
+.sobre {
+  padding: 60px 0;
+}
+
+.sobre p {
+  text-align: justify;
+  font-size: 15px;
+
+}
+
+.sobre_empresa {
+  margin-top: 8px;
+}
+
+.foto-sobre{
+  margin-top: 40px;
+}
+
+.empresa h2 {
+  margin-bottom: 35px;
+}
+
+.qualidade {
+  background-color: #2c4d84;
+  padding: 60px 0;
+}
+
+
+.qualidade .subtitulo {
+  color: white;
+}
+
+.qualidade_lista li {
+  text-align: center;
+  padding: 0 40px;
+  bottom: 10px;
+}
+
+.qualidade_lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-top: 40px;
+  color: white;
+}
+
+.qualidade_lista li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #95ae0b;
+  margin: 6px auto;
+}
+
+.qualidade p {
+  color: white;
+  line-height: 20px;
+}
+
+#logo_qualidade {
+  height: 100px;
+  width: 140px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.btn {
+  border: 5px solid #95ae0b;
+  padding: 10px 30px;
+  color: #95ae0b;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+.btn:hover {
+  color: white;
+  border-color: white;
+}
+
+.map-responsive{
+
+  overflow:hidden;
+
+  padding-bottom:56.25%;
+
+  position:relative;
+
+  height:0;
+
+}
+
+.map-responsive iframe{
+
+  left:0;
+
+  top:0;
+
+  height:100%;
+
+  width:100%;
+
+  position:absolute;
+
+}
+
+.andamento{
+  color: blue;
+  font-weight: bold;
+}
