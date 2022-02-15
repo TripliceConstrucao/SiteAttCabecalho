@@ -86,7 +86,6 @@ img {
     position: fixed;
     top: 0;
     background-color: white;
-    background-image: url('../img/header_marca.png');
     background-size: 40%;
     background-repeat: no-repeat;
     z-index: 10;
